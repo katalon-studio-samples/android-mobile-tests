@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Open the application and verify the items show full when the items over loading</description>
+   <name>Verify Last Items In List</name>
+   <tag></tag>
+   <comment>Story: Verify correct alarm message
+Given that user has started an application
+And he navigates the application to Graphics form
+When he scroll to Xfermodes text
+Then the current screen should show Xfermodes text after scrolling</comment>
+   <testCaseGuid>351f37b6-f55d-422c-a1d7-7b52552e1467</testCaseGuid>
+</TestCaseEntity>
