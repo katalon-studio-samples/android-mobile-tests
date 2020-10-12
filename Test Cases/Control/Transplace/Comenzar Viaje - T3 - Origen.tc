@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Comenzar Viaje - T3 - Origen</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta 
+170920T3</comment>
+   <testCaseGuid>e50035f5-afb6-4975-89b5-0b805623164b</testCaseGuid>
+</TestCaseEntity>

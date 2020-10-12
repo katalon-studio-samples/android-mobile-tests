@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Seleccionamos Ferrero</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta </comment>
+   <testCaseGuid>1ae3b7a0-3c6e-4152-9e8e-03ff904e645d</testCaseGuid>
+</TestCaseEntity>

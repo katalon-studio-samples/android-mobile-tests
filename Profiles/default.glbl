@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>10</initValue>
+      <initValue>60</initValue>
       <name>G_Timeout</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,42 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>5</initValue>
+      <initValue>30</initValue>
       <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.recursoconfiable.tracking'</initValue>
+      <name>rc_app</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Transplace'</initValue>
+      <name>Company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1082394'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lmartinez108'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>50</initValue>
+      <name>Timer_rc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'170920T8'</initValue>
+      <name>Test_</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'FERRERO CORPORATIVO'</initValue>
+      <name>company1</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
