@@ -20,13 +20,13 @@ Mobile.comment('Validar que el app este abierta ')
 Mobile.startExistingApplication(GlobalVariable.rc_app)
 
 // Se hace busqueda del Viaje
-Mobile.comment('170920T2')
-Mobile.scrollToText('170920T2')
+Mobile.comment('151020T2')
+Mobile.scrollToText('151020T2')
 
 Mobile.takeScreenshot()
 
 // Seleccionamos la compañia con un tap para poder acceder a ella
-Mobile.tap(findTestObject('null'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('Object Repository/control track/Viajes/Transplace/android.widget.TextView - 021020T2'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 Mobile.takeScreenshot()

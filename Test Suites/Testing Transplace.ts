@@ -4,7 +4,7 @@
    <name>Testing Transplace</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>luis.ram0srap3r@gmail.com;</mailRecipient>
+   <mailRecipient>luis.ram0srap3r@gmail.com;ulisesresendiz@recursoconfiable.com;jaimetoledo@recursoconfiable.com;eleyvas@recursoconfiable-ca.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -26,13 +26,13 @@
    <testCaseLink>
       <guid>a81dfbc0-e599-4766-9612-f731577c9a21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Control/Transplace/Comenzar Viaje - T1 - Origen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4fcea9b6-e27a-426c-9231-9a41b77116c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Control/Transplace/Comenzar Viaje - T2 - Origen</testCaseId>
    </testCaseLink>
    <testCaseLink>

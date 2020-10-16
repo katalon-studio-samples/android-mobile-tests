@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.TextView - 021020T1</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>9f81f5c3-5058-4d5f-a2a0-ea52d3bcc672</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>021020T1</value>
+      <value>151020T1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
