@@ -13,14 +13,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as Global
+import internal.GlobalVariable as GlobalVariable
 
-Mobile.startExistingApplication(Global.rc_app)
-
-Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'),50)
-Mobile.setText(findTestObject('Object Repository/rc/Login/android.widget.EditText - Username'), Global.Username, 50)
-Mobile.takeScreenshot()
-Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),50)
-Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),Global.Password,50)
-Mobile.takeScreenshot()
-Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/Button - INICIAR SESIN'),50)
+ //Mobile.callTestCase(findTestCase('Test Cases/Happy Path/Login'),["username":"1082394","password":"Lmartinez108"],FailureHandling.OPTIONAL)
+Mobile.callTestCase(findTestCase('Test Cases/Happy Path/Login'),["username":"1082394"],FailureHandling.OPTIONAL)

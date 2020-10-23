@@ -12,26 +12,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object G_Timeout
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_NotificationMessage
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_AndroidApp
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ShortTimeOut
-     
-    /**
-     * <p></p>
-     */
     public static Object rc_app
      
     /**
@@ -71,10 +51,6 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            G_Timeout = selectedVariables['G_Timeout']
-            G_NotificationMessage = selectedVariables['G_NotificationMessage']
-            G_AndroidApp = selectedVariables['G_AndroidApp']
-            G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
             rc_app = selectedVariables['rc_app']
             Company = selectedVariables['Company']
             Username = selectedVariables['Username']

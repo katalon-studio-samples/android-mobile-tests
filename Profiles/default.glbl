@@ -6,26 +6,6 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>60</initValue>
-      <name>G_Timeout</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Your message has been sent. View message'</initValue>
-      <name>G_NotificationMessage</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'androidapp/APIDemos.apk'</initValue>
-      <name>G_AndroidApp</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>30</initValue>
-      <name>G_ShortTimeOut</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'com.recursoconfiable.tracking'</initValue>
       <name>rc_app</name>
    </GlobalVariableEntity>

@@ -13,14 +13,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as Global
+import internal.GlobalVariable as GlobalVariable
 
-Mobile.startExistingApplication(Global.rc_app)
+Mobile.startExistingApplication(GlobalVariable.rc_app)
 
-Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'),50)
-Mobile.setText(findTestObject('Object Repository/rc/Login/android.widget.EditText - Username'), Global.Username, 50)
-Mobile.takeScreenshot()
-Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),50)
-Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),Global.Password,50)
-Mobile.takeScreenshot()
-Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/Button - INICIAR SESIN'),50)
+Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'),GlobalVariable.Timer_rc)
+Mobile.setText(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'), '1082394', GlobalVariable.Timer_rc)
+
+Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),GlobalVariable.Timer_rc)
+Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'), 'Lmartinez108', GlobalVariable.Timer_rc)

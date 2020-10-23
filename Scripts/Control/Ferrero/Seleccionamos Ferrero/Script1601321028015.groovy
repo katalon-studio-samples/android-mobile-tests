@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.wi
 Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 Mobile.scrollToText('0210QA4')
-Mobile.tap(findTestObject('Object Repository/control track/Viajes/Ferrero/android.widget.TextView - 0210QA4'), GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('null'), GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 //Mobile.tap(findTestObject(),GlobalVariable.Timer_rc)
 
