@@ -20,15 +20,15 @@ Mobile.startExistingApplication(GlobalVariable.rc_app)
 
 Mobile.scrollToText(GlobalVariable.company1)
 Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - FERRERO CORPORATIVO'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 Mobile.scrollToText('0210QA4')
 Mobile.tap(findTestObject('null'), GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 //Mobile.tap(findTestObject(),GlobalVariable.Timer_rc)
 
 Mobile.tap(findTestObject('Object Repository/control track/Localidades/Ferrero Corp/android.view.ViewGroup'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 
 //Aqui estoy reutilizando la data

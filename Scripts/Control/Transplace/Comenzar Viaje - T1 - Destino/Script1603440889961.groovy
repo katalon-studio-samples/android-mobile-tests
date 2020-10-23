@@ -29,13 +29,14 @@ Mobile.takeScreenshot()
 Mobile.tap(findTestObject('Object Repository/control track/Viajes/Transplace/T3'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
+
 Mobile.takeScreenshot()
 
-// Seleccionamos Localidad de Origen
-Mobile.tap(findTestObject('Object Repository/control track/Localidades/Transplace/android.widget.TextView - Transplace Mexico'),GlobalVariable.Timer_rc)
+// Seleccionamos Localidad de Destino 
+Mobile.tap(findTestObject('Object Repository/control track/Localidades/Transplace/Destino generico'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
-// Seleccionamos el evento de llegada del menu 
+// Seleccionamos el evento de llegada del menu
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/android.widget.TextView - Llegada'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Eventos/android.widget.Button - REGISTRATE'),GlobalVariable.Timer_rc)
@@ -44,12 +45,11 @@ Mobile.tap(findTestObject('control track/Eventos/android.widget.Button - REGISTR
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Llegada/android.widget.Button - GUARDAR'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
-
 Mobile.takeScreenshot()
 
-// seleccionamos el evento de Fin de Carga 
+// seleccionamos el evento de Fin de Carga
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/android.widget.TextView - Fin de carga'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Salida/Fin de descarga'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Eventos/android.widget.Button - REGISTRATE'),GlobalVariable.Timer_rc)
 
 Mobile.takeScreenshot()
@@ -58,26 +58,29 @@ Mobile.takeScreenshot()
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Llegada/android.widget.Button - GUARDAR'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
-
 Mobile.takeScreenshot()
 
-// Seleccionamos el evenot de Salida 
+// Seleccionamos el evenot de Salida
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/android.widget.TextView - Salida'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Eventos/android.widget.Button - REGISTRATE'),GlobalVariable.Timer_rc)
 
+Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Salida/CAPTURAR'),GlobalVariable.Timer_rc)
+
+Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Liberacion/android.widget.ImageView'),100)
 Mobile.takeScreenshot()
 
-//Guardamos El evento  de Salida 
+Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Liberacion/android.widget.TextView - GUARDAR'),GlobalVariable.Timer_rc)
+
+//Mostamos la galeria 
+Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Salida/GALERA'),GlobalVariable.Timer_rc)
+Mobile.takeScreenshot()
+Mobile.tap(findTestObject('Object Repository/control track/Generico/android.widget.ImageButton - Atras'),GlobalVariable.Timer_rc)
+
+//Guardamos El evento  de Salida
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/Destino/Llegada/android.widget.Button - GUARDAR'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
-
-// Ultimo Boton de Ok 
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
-
-// Aqui mostramos la pantalla con los destinos... 
-
-
-// Regresamos a los viajes 
-Mobile.tap(findTestObject('Object Repository/control track/Generico/android.widget.ImageButton - Atras'),GlobalVariable.Timer_rc)
-//Mobile.tap(findTestObject('Object Repository/control track/Generico/android.widget.ImageButton - Atras'),GlobalVariable.Timer_rc)
+//Este boton Ok es para cuando solo se tegna una parada
+Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc) 
+Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)

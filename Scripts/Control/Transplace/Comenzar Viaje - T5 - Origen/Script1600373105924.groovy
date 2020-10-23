@@ -27,13 +27,13 @@ Mobile.takeScreenshot()
 
 // Seleccionamos la compañia con un tap para poder acceder a ella
 Mobile.tap(findTestObject('null'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 Mobile.takeScreenshot()
 
 // Seleccionamos Localidad de Origen
 Mobile.tap(findTestObject('Object Repository/control track/Localidades/Transplace/android.widget.TextView - Transplace Mexico'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/Company/android.widget.Button - OK'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 // Seleccionamos el evento de llegada del menu 
 Mobile.tap(findTestObject('control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)

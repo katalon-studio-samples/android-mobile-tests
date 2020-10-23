@@ -17,8 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startExistingApplication(GlobalVariable.rc_app)
 
-Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'),GlobalVariable.Timer_rc)
-Mobile.setText(findTestObject('Object Repository/control track/Login/Iniciar/EditText - Usuario'), '1082394', GlobalVariable.Timer_rc)
+Mobile.takeScreenshot('Inicio Sesion 1')
+Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Username'),GlobalVariable.Timer_rc)
+Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Username'), '1082394', GlobalVariable.Timer_rc)
+
 
 Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'),GlobalVariable.Timer_rc)
 Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Password'), 'Lmartinez108', GlobalVariable.Timer_rc)
+
+Mobile.takeScreenshot('Inicio Sesion 2')
+Mobile.tap(findTestObject('Object Repository/control track/Login/Iniciar/INICIAR SESIN'),GlobalVariable.Timer_rc)

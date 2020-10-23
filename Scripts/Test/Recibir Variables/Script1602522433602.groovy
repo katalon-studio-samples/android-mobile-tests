@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startExistingApplication(Global.rc_app)
 
-Mobile.tap(findTestObject('Object Repository/rc/Login/android.widget.EditText - Username'), 50)
+Mobile.tap(findTestObject('control track/Login/Iniciar/android.widget.EditText - Username'), 50)
 
-Mobile.setText(findTestObject('Object Repository/rc/Login/android.widget.EditText - Username'), Username, 50)
+Mobile.setText(findTestObject('control track/Login/Iniciar/android.widget.EditText - Username'), Username, 50)
 
 Mobile.tap(findTestCase('Object Repository/rc/Login/android.widget.EditText - Password'),50)
 

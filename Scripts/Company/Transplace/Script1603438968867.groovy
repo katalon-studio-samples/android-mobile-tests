@@ -9,32 +9,18 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.MobileTestObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
-if (Mobile.callTestCase(findTestCase('null'),[:], FailureHandling.OPTIONAL)== true){
-	Mobile.callTestCase(findTestCase('null'),[:], FailureHandling.OPTIONAL)
-}
-else {
-	Mobile.closeApplication()
-}
-
-/*new oUiSelector().className("android.widget.TextView").text(GlobalVariable.Company).packageName("com.recursoconfiable.tracking").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)
-Mobile.tap(findTestObject(company),0)
-
-def itemText = Mobile.getText(findTestObject('Object Repository/Test/Grap/android.widget.TextView0 - Fanasa'), GlobalVariable.G_Timeout)
-
-Mobile.verifyEqual(itemText, 'Fanasa')
-Mobile.tap(findTestObject('Object Repository/Test/Grap/android.widget.TextView0 - Fanasa'),0)
-
-if (Mobile.verifyElementExist(findTestObject('Object Repository/Test/Grap/android.widget.TextView - Fanasa')>0, 0)
-	{
-	Mobile.tap(findTestObject('Object Repository/Test/Grap/android.widget.TextView - Fanasa'),0)
-} */
- 
+Mobile.comment('Validar que el app este abierta ')
+Mobile.startExistingApplication('com.recursoconfiable.tracking')
+Mobile.comment('Transplace Mexico')
+Mobile.scrollToText('Transplace Mexico')
+def itemText = Mobile.getText(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - Transplace Mexico'), GlobalVariable.Timer_rc)
+Mobile.verifyEqual(itemText, 'Transplace Mexico')
+Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - Transplace Mexico'),50)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),100)
 

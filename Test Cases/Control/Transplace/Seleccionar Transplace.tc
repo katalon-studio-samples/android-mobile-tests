@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Seleccionar Transplace</name>
-   <tag></tag>
-   <comment>Validar que el app este abierta 
-GlobalVariable.Company</comment>
-   <testCaseGuid>21c01cd1-0b14-4fb9-9ddf-69244b88ea10</testCaseGuid>
-</TestCaseEntity>
