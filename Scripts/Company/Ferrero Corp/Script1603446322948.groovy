@@ -16,10 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 Mobile.comment('Validar que el app este abierta ')
-Mobile.startExistingApplication('com.recursoconfiable.tracking')
-Mobile.comment('FERRERO CORPORATIVO')
-Mobile.scrollToText('FERRERO CORPORATIVO')
-def itemText = Mobile.getText(findTestObject('null'),, GlobalVariable.G_Timeout)
-Mobile.verifyEqual(itemText, 'FERRERO CORPORATIVO')
-Mobile.tap(findTestObject('null'),0)
-Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),0)
+Mobile.startExistingApplication(GlobalVariable.rc_app)
+
+Mobile.scrollToText(GlobalVariable.company1)
+Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - FERRERO CORPORATIVO'),GlobalVariable.Timer_rc)
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)

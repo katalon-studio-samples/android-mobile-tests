@@ -11,4 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2d4035b2-fbda-406b-adb2-aee11fe867ab</testSuiteGuid>
+   <testCaseLink>
+      <guid>aef483af-6736-4f9c-99a4-8d87b9c7f5ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Company/Ferrero Corp</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
