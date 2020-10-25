@@ -4,7 +4,7 @@
    <name>Happy Path Ferrero Corp</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>luis.ram0srap3r@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Company/Ferrero Corp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4b5046f-429e-46d6-83c3-eddc62a5f5a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Control/Ferrero/Comenzar Viaje F1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se realizan eventos de destino,</description>
+   <name>Comenzar Viaje F1</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta </comment>
+   <testCaseGuid>0f1a1e39-c8f5-4b79-9603-b84069516883</testCaseGuid>
+</TestCaseEntity>

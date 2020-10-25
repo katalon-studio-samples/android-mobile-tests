@@ -10,39 +10,79 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p></p>
+     * <p>Profile default : aplicacion que el IDE buscara durante la ejecucion de pruebas </p>
      */
     public static Object rc_app
      
     /**
-     * <p></p>
-     */
-    public static Object Company
-     
-    /**
-     * <p></p>
+     * <p>Profile default : Usuario usado durante el set de pruebas</p>
      */
     public static Object Username
      
     /**
-     * <p></p>
+     * <p>Profile default : Contrase&ntilde;a usada durante el set de pruebas </p>
      */
     public static Object Password
      
     /**
-     * <p></p>
+     * <p>Profile default : Tiempo por default para cambio de objeto </p>
      */
     public static Object Timer_rc
      
     /**
-     * <p></p>
+     * <p>Profile default : Tiempo estimado para que pueda tomar evidencia con la camara </p>
      */
-    public static Object Test_
+    public static Object timer_photo
      
     /**
-     * <p></p>
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Transplace</p>
      */
-    public static Object company1
+    public static Object T1
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Transplace</p>
+     */
+    public static Object T2
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Transplace</p>
+     */
+    public static Object T3
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Transplace</p>
+     */
+    public static Object T4
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Transplace</p>
+     */
+    public static Object T5
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Ferrero Corp</p>
+     */
+    public static Object F1
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Ferrero Corp</p>
+     */
+    public static Object F2
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Ferrero Corp</p>
+     */
+    public static Object F3
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Ferrero Corp</p>
+     */
+    public static Object F4
+     
+    /**
+     * <p>Profile default : Viaje Existente dentro de la planeacion de Ferrero Corp</p>
+     */
+    public static Object F5
      
 
     static {
@@ -52,12 +92,20 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             rc_app = selectedVariables['rc_app']
-            Company = selectedVariables['Company']
             Username = selectedVariables['Username']
             Password = selectedVariables['Password']
             Timer_rc = selectedVariables['Timer_rc']
-            Test_ = selectedVariables['Test_']
-            company1 = selectedVariables['company1']
+            timer_photo = selectedVariables['timer_photo']
+            T1 = selectedVariables['T1']
+            T2 = selectedVariables['T2']
+            T3 = selectedVariables['T3']
+            T4 = selectedVariables['T4']
+            T5 = selectedVariables['T5']
+            F1 = selectedVariables['F1']
+            F2 = selectedVariables['F2']
+            F3 = selectedVariables['F3']
+            F4 = selectedVariables['F4']
+            F5 = selectedVariables['F5']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

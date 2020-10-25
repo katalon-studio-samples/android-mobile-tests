@@ -18,10 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 //Se busca que el app este abierto
 Mobile.comment('Validar que el app este abierta ')
 Mobile.startExistingApplication(GlobalVariable.rc_app)
+Mobile.takeScreenshot()
 
-
-Mobile.scrollToText('0210QA4')
-Mobile.tap(findTestObject('null'), GlobalVariable.Timer_rc)
+Mobile.scrollToText(GlobalVariable.F1)
+Mobile.tap(findTestObject('Object Repository/control track/Viajes/Shipment'), GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 //Mobile.tap(findTestObject(),GlobalVariable.Timer_rc)
 
@@ -49,6 +49,7 @@ Mobile.takeScreenshot()
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Liberacion/android.widget.TextView - GUARDAR'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Liberacion/android.widget.Button - GUARDAR'),GlobalVariable.Timer_rc)
 
+Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)

@@ -5,38 +5,78 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
+      <description>aplicacion que el IDE buscara durante la ejecucion de pruebas </description>
       <initValue>'com.recursoconfiable.tracking'</initValue>
       <name>rc_app</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Transplace'</initValue>
-      <name>Company</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
+      <description>Usuario usado durante el set de pruebas</description>
       <initValue>'1082394'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Contraseña usada durante el set de pruebas </description>
       <initValue>'Lmartinez108'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Tiempo por default para cambio de objeto </description>
       <initValue>50</initValue>
       <name>Timer_rc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'170920T8'</initValue>
-      <name>Test_</name>
+      <description>Tiempo estimado para que pueda tomar evidencia con la camara </description>
+      <initValue>100</initValue>
+      <name>timer_photo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'FERRERO CORPORATIVO'</initValue>
-      <name>company1</name>
+      <description>Viaje Existente dentro de la planeacion de Transplace</description>
+      <initValue>'021020T4'</initValue>
+      <name>T1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Transplace</description>
+      <initValue>'021020T5'</initValue>
+      <name>T2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Transplace</description>
+      <initValue>''</initValue>
+      <name>T3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Transplace</description>
+      <initValue>''</initValue>
+      <name>T4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Transplace</description>
+      <initValue>''</initValue>
+      <name>T5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
+      <initValue>'0210QA3'</initValue>
+      <name>F1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
+      <initValue>''</initValue>
+      <name>F2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
+      <initValue>''</initValue>
+      <name>F3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
+      <initValue>''</initValue>
+      <name>F4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
+      <initValue>''</initValue>
+      <name>F5</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
