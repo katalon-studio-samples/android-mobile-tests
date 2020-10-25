@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Comenzar Viaje - Test - Origen</name>
-   <tag></tag>
-   <comment>Validar que el app este abierta 
-170920T7</comment>
-   <testCaseGuid>2ec489ae-68a3-42dd-9dc1-af93fe3fd000</testCaseGuid>
-</TestCaseEntity>
