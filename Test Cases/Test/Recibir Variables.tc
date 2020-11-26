@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Recibir Variables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14e508a6-b6f5-4ed6-9b6e-0ea6dc103835</testCaseGuid>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>7771ad4b-5232-4fd9-b07a-795076a5779c</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>ca11ca65-d87d-4b85-bd51-a2ff4a85759f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

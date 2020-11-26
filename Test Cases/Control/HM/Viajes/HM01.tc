@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seleccionamos el viaje</description>
+   <name>HM01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adb78ec3-ec9f-4ab5-892f-fe963e5e302d</testCaseGuid>
+</TestCaseEntity>

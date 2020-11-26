@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transplace</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta 
+03082020T5</comment>
+   <testCaseGuid>46f1f3d1-f2f4-4f5f-bba3-634a49e615e2</testCaseGuid>
+</TestCaseEntity>

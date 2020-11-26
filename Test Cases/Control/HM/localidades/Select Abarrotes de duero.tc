@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Localidad manejada como destino, ABARROTES DEL DUERO, S.A DE C.V MERIDA</description>
+   <name>Select Abarrotes de duero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abdab640-bcf2-4e61-8a0c-8c834b6a968b</testCaseGuid>
+</TestCaseEntity>

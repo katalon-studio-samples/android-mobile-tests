@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seleccionamos la Compañia de Hennes &amp; Mauritz</description>
+   <name>Select HM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37c961a9-670b-45a6-a4f0-e9913cf24858</testCaseGuid>
+</TestCaseEntity>

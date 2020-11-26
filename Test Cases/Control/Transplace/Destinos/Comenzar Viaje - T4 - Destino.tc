@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se realizan eventos en destino</description>
+   <name>Comenzar Viaje - T4 - Destino</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta 
+GlobalVariable.T1</comment>
+   <testCaseGuid>406a898a-07d4-4465-b070-602981bf4b98</testCaseGuid>
+</TestCaseEntity>

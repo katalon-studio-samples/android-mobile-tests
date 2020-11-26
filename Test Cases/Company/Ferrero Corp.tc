@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se Buscara la compañia de Ferrero Corp dentro del listado de empresas</description>
+   <name>Ferrero Corp</name>
+   <tag></tag>
+   <comment>Validar que el app este abierta </comment>
+   <testCaseGuid>1f65c301-6153-4b47-b98a-6a8ca6860554</testCaseGuid>
+</TestCaseEntity>
