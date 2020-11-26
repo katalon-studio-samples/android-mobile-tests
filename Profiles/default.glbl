@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Viaje Existente dentro de la planeacion de Transplace</description>
-      <initValue>'021020T4'</initValue>
+      <initValue>'071020T2'</initValue>
       <name>T1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Viaje Existente dentro de la planeacion de Transplace</description>
-      <initValue>'021020T5'</initValue>
+      <initValue>''</initValue>
       <name>T2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
-      <initValue>'0210QA3'</initValue>
+      <initValue>'2406QA3'</initValue>
       <name>F1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -78,5 +78,20 @@
       <description>Viaje Existente dentro de la planeacion de Ferrero Corp</description>
       <initValue>''</initValue>
       <name>F5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2804HMQA02'</initValue>
+      <name>HM01</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2804HMQA01'</initValue>
+      <name>HM02</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2804HMQA01'</initValue>
+      <name>HM03</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

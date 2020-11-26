@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//Se busca que el app este abierto
-Mobile.comment('Validar que el app este abierta ')
-Mobile.startExistingApplication(GlobalVariable.rc_app)
+Mobile.comment('')
+
+Mobile.startExistingApplication(GlobalVariable.rc_app, FailureHandling.CONTINUE_ON_FAILURE)
 
 // Se hace busqueda del Viaje
 Mobile.comment(GlobalVariable.T1)

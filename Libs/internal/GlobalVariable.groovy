@@ -84,6 +84,21 @@ public class GlobalVariable {
      */
     public static Object F5
      
+    /**
+     * <p></p>
+     */
+    public static Object HM01
+     
+    /**
+     * <p></p>
+     */
+    public static Object HM02
+     
+    /**
+     * <p></p>
+     */
+    public static Object HM03
+     
 
     static {
         try {
@@ -106,6 +121,9 @@ public class GlobalVariable {
             F3 = selectedVariables['F3']
             F4 = selectedVariables['F4']
             F5 = selectedVariables['F5']
+            HM01 = selectedVariables['HM01']
+            HM02 = selectedVariables['HM02']
+            HM03 = selectedVariables['HM03']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Primer Evento en listado</description>
+   <name>Llegada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>493d2673-b331-49b7-94cd-02dc0a11aba8</testCaseGuid>
+</TestCaseEntity>

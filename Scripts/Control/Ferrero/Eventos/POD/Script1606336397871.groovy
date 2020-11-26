@@ -15,30 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//Se busca que el app este abierto
-Mobile.comment('Validar que el app este abierta ')
-Mobile.startExistingApplication(GlobalVariable.rc_app)
+Mobile.comment('')
+
+Mobile.startExistingApplication(GlobalVariable.rc_app, FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.takeScreenshot()
-
-Mobile.scrollToText(GlobalVariable.F1)
-Mobile.tap(findTestObject('Object Repository/control track/Viajes/Shipment'), GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
-//Mobile.tap(findTestObject(),GlobalVariable.Timer_rc)
-
-Mobile.tap(findTestObject('Object Repository/control track/Localidades/Ferrero Corp/android.view.ViewGroup'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
-
-
-//Aqui estoy reutilizando la data
-Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/control track/Eventos/Transplace/android.widget.TextView - Llegada'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - REGISTRATE'),GlobalVariable.Timer_rc)
-
-//Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Llegada/Obser'),GlobalVariable.Timer_rc)
-//Mobile.setText(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Llegada/Obser'),'Comentarios', GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Llegada/android.widget.Button - GUARDAR'),GlobalVariable.Timer_rc)
-Mobile.tap(findTestObject('Object Repository/rc/event/Llegada/android.widget.Button - OK'),GlobalVariable.Timer_rc)
-
 
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/android.widget.Button - SELECCIONE UN EVENTO'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('Object Repository/control track/Eventos/Ferrero Corp/Liberacion/android.widget.TextView - Liberacin POD'),GlobalVariable.Timer_rc)

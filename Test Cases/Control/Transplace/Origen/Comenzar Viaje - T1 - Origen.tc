@@ -4,6 +4,6 @@
    <name>Comenzar Viaje - T1 - Origen</name>
    <tag></tag>
    <comment>Validar que el app este abierta 
-GlobalVariable.T2</comment>
+GlobalVariable.T1</comment>
    <testCaseGuid>15282cca-e267-411b-9343-837658f04a62</testCaseGuid>
 </TestCaseEntity>

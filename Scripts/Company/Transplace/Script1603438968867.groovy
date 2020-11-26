@@ -15,12 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.comment('Validar que el app este abierta ')
+Mobile.comment('')
 Mobile.startExistingApplication('com.recursoconfiable.tracking')
 Mobile.comment('Transplace Mexico')
 Mobile.scrollToText('Transplace Mexico')
 def itemText = Mobile.getText(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - Transplace Mexico'), GlobalVariable.Timer_rc)
 Mobile.verifyEqual(itemText, 'Transplace Mexico')
 Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - Transplace Mexico'),50)
-Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),100)
-
+Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),150)

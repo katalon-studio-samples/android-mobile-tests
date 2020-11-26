@@ -14,9 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import io.appium.java_client.MobileElement
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
 
 //Se busca que el app este abierto
-Mobile.comment('Validar que el app este abierta ')
+Mobile.comment('Validar que el app este abierta')
 Mobile.startExistingApplication(GlobalVariable.rc_app)
 
 // Se hace busqueda del Viaje
@@ -25,8 +28,13 @@ Mobile.scrollToText(GlobalVariable.T2)
 
 Mobile.takeScreenshot()
 
+MobileTestObject mobileObject = findTestObject('Object Repository/Test/Test')
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ANDROID_UI_AUTOMATOR)
+mobileObject.setMobileLocator('new UiSelector().className("android.widget.TextView").packageName("com.recursoconfiable.tracking").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)')
+
+Mobile.tap(findTestObject('Object Repository/Test/Test'),50)
 // Seleccionamos la compañia con un tap para poder acceder a ella
-Mobile.tap(findTestObject('Object Repository/control track/Viajes/Shipment'),GlobalVariable.Timer_rc)
+//Mobile.tap(findTestObject('Object Repository/control track/Viajes/Shipment'),GlobalVariable.Timer_rc)
 Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
 
 Mobile.takeScreenshot()

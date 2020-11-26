@@ -15,9 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.comment('Validar que el app este abierta ')
-Mobile.startExistingApplication(GlobalVariable.rc_app)
+Mobile.comment('')
 
-Mobile.scrollToText(GlobalVariable.company1)
+Mobile.startExistingApplication(GlobalVariable.rc_app, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.scrollToText('FERRERO CORPORATIVO')
+
 Mobile.tap(findTestObject('Object Repository/control track/Compañias/android.widget.TextView - FERRERO CORPORATIVO'),GlobalVariable.Timer_rc)
+
 Mobile.tap(findTestObject('control track/Compañias/android.widget.Button - OK'),GlobalVariable.Timer_rc)
