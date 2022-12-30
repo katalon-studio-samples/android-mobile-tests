@@ -1,0 +1,21 @@
+name: Trigger auto sync
+on:
+  workflow_dispatch:
+  push:
+    branch:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3
+
+      - name: Scan repository for production
+        uses: katalon-studio-samples/testops-sync-script-repo-action@main
+        with: 
+          testops-base-url: https://testops.katalon.io
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          token: ${{ secrets.TOKEN }}
