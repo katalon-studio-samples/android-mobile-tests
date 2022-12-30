@@ -2,7 +2,7 @@ name: Trigger auto sync
 on:
   workflow_dispatch:
   push:
-    branch:
+    branches:
       - qa
 
 jobs:
