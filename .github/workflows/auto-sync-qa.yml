@@ -19,11 +19,3 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           token: ${{ secrets.TOKEN }}
-
-      - name: Scan repository for staging
-        uses: katalon-studio-samples/testops-sync-script-repo-action@main
-        with: 
-          testops-base-url: https://testops.staging.katalon.com
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          token: ${{ secrets.TOKEN }}
