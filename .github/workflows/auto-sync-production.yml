@@ -1,4 +1,4 @@
-name: Trigger auto sync
+name: Trigger auto sync in Production environment
 on:
   workflow_dispatch:
   push:
