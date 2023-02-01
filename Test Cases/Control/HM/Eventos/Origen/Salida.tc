@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se realiza el evento de Salida 
+Evento en listado #1</description>
+   <name>Salida</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e68384a6-fd3e-40a1-8d12-d422bbb96715</testCaseGuid>
+</TestCaseEntity>

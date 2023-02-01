@@ -3,7 +3,27 @@
    <description></description>
    <name>Android Mobile Tests with Katalon Studio</name>
    <tag></tag>
-   <UUID>1388abf0-8bae-4cd9-8586-5f3d094596aa</UUID>
-   <migratedVersion>5.4.0</migratedVersion>
+   <UUID>35803e1b-24d1-457a-8978-bfd059488450</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Repositorios\RC\Katalon\rc app\rc-app\Android Mobile Tests with Katalon Studio.prj</projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>MOBILE</type>
 </Project>

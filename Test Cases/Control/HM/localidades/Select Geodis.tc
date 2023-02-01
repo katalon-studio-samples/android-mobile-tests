@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Geoidis HM localidad comun de origen</description>
+   <name>Select Geodis</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e87d3e43-2f1f-48c2-8527-e642d903b115</testCaseGuid>
+</TestCaseEntity>
