@@ -17,11 +17,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'androidapp/APIDemos.apk'</initValue>
-      <name>G_AndroidApp</name>
+      <name>G_AppPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
+      <name>G_SiteURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
