@@ -32,6 +32,8 @@ Mobile.tap(findTestObject('Object Repository/Sanity Test/로그인/Kakao_login/a
 'ID 입력'
 Mobile.sendKeys(findTestObject('Object Repository/Sanity Test/로그인/Kakao_login/android.widget.EditText'), 'yg520@tabling.co.kr')
 
+Mobile.delay(1)
+
 'PW 입력'
 Mobile.setEncryptedText(findTestObject('Object Repository/Sanity Test/로그인/Kakao_login/android.widget.EditText (1)'), 'O/9w0QcHUfqf9mr0Jag3nA==', 
     0)
@@ -63,3 +65,4 @@ Mobile.tap(findTestObject('Object Repository/Sanity Test/로그인/Kakao_login/a
 
 '홈 버튼 탭'
 Mobile.tap(findTestObject('Object Repository/Sanity Test/로그인/Kakao_login/android.widget.ImageView (1)'), 0)
+

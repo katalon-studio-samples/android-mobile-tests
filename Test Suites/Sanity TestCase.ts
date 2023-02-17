@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c1a71c31-4140-49a7-9615-787ece72405f</testSuiteGuid>
    <testCaseLink>
-      <guid>a3727845-8109-4709-bd81-742a3a0963d5</guid>
+      <guid>5c6db3ff-a4d9-4f24-9f70-f56eda11ce80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Signup,off</testCaseId>

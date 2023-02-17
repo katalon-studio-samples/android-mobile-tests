@@ -6,7 +6,7 @@
    <UUID>1388abf0-8bae-4cd9-8586-5f3d094596aa</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/jin/Katalon Studio/Android Mobile Tests Project (1)/Android Mobile Tests with Katalon Studio.prj</projectFileLocation>
+   <projectFileLocation>/Users/jin/Katalon Studio/android-mobile-tests/Android Mobile Tests with Katalon Studio.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
