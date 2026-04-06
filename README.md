@@ -5,9 +5,9 @@ The **android-mobile-tests** perform UI functional automation test on an Android
 
 ## Companion products
 
-### Katalon TestOps
+### Katalon True Platform
 
-[Katalon TestOps](https://analytics.katalon.com) is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; seamlessly integrating with such tools as Katalon Studio and Jira; maximizing the testing capacity with remote execution.
+[Katalon True Platform](https://analytics.katalon.com) brings planning, authoring, execution, and quality insights into one connected experience—combining manual and automated testing, scalable execution, AI assistance, and reporting so teams can move faster without fragmenting their workflow.
 
 * Read our [documentation](https://docs.katalon.com/katalon-analytics/docs/overview.html).
 * Ask a question on [Forum](https://forum.katalon.com/categories/katalon-analytics).
@@ -16,7 +16,7 @@ The **android-mobile-tests** perform UI functional automation test on an Android
 * File a bug in [GitHub Issues](https://github.com/katalon-analytics/katalon-analytics/issues).
 
 ### Katalon Studio
-[Katalon Studio](https://www.katalon.com) is a free and complete automation testing solution for Web, Mobile, and API testing with modern methodologies (Data-Driven Testing, TDD/BDD, Page Object Model, etc.) as well as advanced integration (JIRA, qTest, Slack, CI, Katalon TestOps, etc.). Learn more about [Katalon Studio features](https://www.katalon.com/features/).
+[Katalon Studio](https://www.katalon.com) is a free and complete automation testing solution for Web, Mobile, and API testing with modern methodologies (Data-Driven Testing, TDD/BDD, Page Object Model, etc.) as well as advanced integration (JIRA, qTest, Slack, CI, Katalon True Platform, etc.). Learn more about [Katalon Studio features](https://www.katalon.com/features/).
 
 
 ## Getting Started
@@ -38,8 +38,6 @@ At the end of this README, you will find additional ways to execute automation t
 
 ## See Also
 Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
-
-Katalon Documentation: http://docs.katalon.com/, especially some [Tips and Tricks](https://docs.katalon.com/x/PgXR) to run a successful automation test. 
 
 Katalon Forum: https://forum.katalon.com/
 
